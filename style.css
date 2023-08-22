@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+body {
+    background-color: rgb(6, 6, 6);
+    font-family: 'Space Mono';
+    font-size: 20px;
+    height: 100vh;
+    /* This ensures that the container takes up the full viewport height. */
+    margin: 0;
+    /* Remove default margin to prevent unwanted spacing. */
+}
+
+
+/* #main {
+    top: 50%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+*/
+
+#prefix {
+    color: #49d257;
+    margin-right: 0.5rem;
+    margin-top: 0;
+}
+
+#title {
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 40px;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    height: 40px;
+}
+
+#title-text {
+    color: #bababa;
+    margin-top: 0;
+}
+
+#text {
+    color: #9d9d9d;
+}
+
+#text-block {
+    margin-left: 1.5rem;
+    max-width: 50rem;
+}
+
+#link {
+    text-decoration: none;
+    color: #9d9d9d;
+}
+
+#link:hover {
+    text-decoration: none;
+    color: #49d257;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+    #title {
+        font-size: 23px;
+        height: 23px;
+    }
+}

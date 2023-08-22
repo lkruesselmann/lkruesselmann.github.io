@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>void</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="block">
+            <div id="title">
+                <p id="prefix">#</p>
+                <p id="title-text"></p>
+            </div>
+            <div id="text-block">
+                <p id="text">
+                    i'm a 18 year old student from germany with a passion for cybersecurity and development. i currently study cybersecurity management at <a id="link" href="https://hsnr.de" target="_blank">hsnr</a> in moenchengladbach.
+                </p>
+            </div>
+        </div>
+        <div id="block">
+            <div id="title">
+                <p id="prefix">#</p>
+                <p id="title-text">skills</p>
+            </div>
+            <div id="text-block">
+                <p id="text">
+                    $ full stack development <br> $ web application pentesting <br> $ server pentesting <br> $ bug hunting <br> $ linux
+                </p>
+            </div>
+        </div>
+        <div id="block">
+            <div id="title">
+                <p id="prefix">#</p>
+                <p id="title-text">languages</p>
+            </div>
+            <div id="text-block">
+                <p id="text">
+                    $ python <br> $ web (html, css, js, php) <br> $ c# <br>
+                </p>
+            </div>
+        </div>
+        <div id="block">
+            <div id="title">
+                <p id="prefix">#</p>
+                <p id="title-text">links</p>
+            </div>
+            <div id="text-block">
+                <p id="text">
+                    $ <a id="link" href="https://github.com/lkruesselmann" target="_blank">github</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- typing library -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#title-text', {
+            strings: ['luis kruesselmann.', 'vo!d.'],
+            typeSpeed: 100,
+            backSpeed: 70,
+            backDelay: 3000,
+            startDelay: 1000,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
