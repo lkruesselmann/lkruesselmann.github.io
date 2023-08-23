@@ -57,6 +57,14 @@ body {
     color: #49d257;
 }
 
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Place it behind other elements */
+}
+
 @media (max-width: 768px) {
     body {
         font-size: 15px;
